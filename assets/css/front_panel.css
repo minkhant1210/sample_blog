@@ -1,0 +1,18 @@
+::-webkit-scrollbar{
+    width: 0.3rem;
+}
+::-webkit-scrollbar-thumb{
+    /*background: linear-gradient(transparent,#096d88);*/
+    background: linear-gradient(transparent, #0982e9);
+    border-radius: 6px;
+}
+::-webkit-scrollbar-thumb:hover{
+    background: linear-gradient(transparent,#a260ee);
+}
+
+.front-panel-right-side{
+    position: sticky;
+    top: 15px;
+    overflow-y: auto;
+    height: 100vh;
+}
